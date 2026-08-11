@@ -1,5 +1,5 @@
 url: https://schnackenburg-archive-dev.s3.eu-central-1.amazonaws.com/one.jpg
 type: image/jpeg
 description: 2025 Schnackenburg frühstückt 01
-tags: one two three "four five"
+tags: one, two, three, four-five, six
 size: 496.8 KB
