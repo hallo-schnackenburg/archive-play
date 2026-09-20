@@ -1,0 +1,32 @@
+id: xy-1234
+archive ID: ARCH-242, ARCH-014
+# würde sagen, "name of document" ist "title"
+title: Zur slawischen Besiedlung des westlichen Elbufers zwischen Schnackenburg und Langendorf
+description: ?
+location: Schnackenburg bis Langendorf
+# super
+provider: Bücherei der Hansestadt Uelzen
+publisher: Hildesheim, Lax; Archäologische Kommission für Niedersachsen e. V.
+author: Pudelko, Alfred
+type: Buch, gedruckt
+format: Papier
+pages: 30
+year: 1972
+# ist das unser interner Status?
+status: digitalisiert
+keywords: Schnackenburg, Besiedelung, Slawisch, Westufer, Elbe
+versions:
+- role: extern
+  type: catalog
+  name: Stadtbücherei Uelzen
+  url: https://webopac-uelzen.itv-ue.de/Mediensuche/Einfache-Suche?search=schnackenburg&top=y&page=2&detail=13&focusModule=searchmodule
+  # Es wäre cool, eine Checksum für so eine externe Webseite zu haben, um erkennen zu können, ob sich die Inhalte dort geändert haben. Nicht ganz einfach, lassen wir erstmal weg.
+  checksum: ??
+# super. Sind die comments intern gemeint? Also als Teil des Archivierungsprozesses?
+comments:
+# also vielleicht eine Sektion zum Thema "Unser Archivierungsprozess"; Unterstrich am Anfang signalisiert "ist intern"
+_archive:
+  archiver: Venja
+  comments: Fast fertig!
+  status: digitalisiert
+
