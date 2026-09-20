@@ -1,0 +1,44 @@
+# Interne, eindeutige Archiv ID; identifiziert das durch diese Metadaten beschriebene Objekt intern
+id: xy-1234
+# Typ des Objektes, in diesem Fall ein Bild
+type: image
+# Bezeichnung
+title: Schautafel am Hafen
+# Beschreibung
+description: ...
+# Datum der Herstellung des Objektes, oder Zeitspanne
+date: 1925-04-12 oder 1920-1925
+creator: z.B. Urheber, Fotograf
+publisher: z.B. EJZ
+archiver: Sven
+# Sprache (ISO 639, Deutsch wie in Deutschland gesprochen); Geben wir vielleicht nur an, wenn de-DE nicht zutrifft, und de-DE ist default
+language: de-DE
+location: Schnackenburg, Hafen
+geocode: 9F5H2HM9+X5
+keywords: Hafen, Tourismus, Natur
+versions:
+# Array verschiedener autogenerierter Versionen
+- role: original
+  storage: cold-storage
+  path: /xy-1234-original.jpg
+  type: image/jpeg
+  size: 2GB
+  checksum: ...
+  phash: ...
+- role: web
+  storage: object-storage
+  path: /xy-1234-medium.jpg
+  type: image/jpeg
+  size: 8MB
+  checksum: ...
+- role: web
+  storage: object-storage
+  path: /xy-1234-small.jpg
+  type: image/jpeg
+  size: 2MB
+  checksum: ...
+- role: text-ocr
+  storage: local
+  path: /xy/1234/4.txt
+  type: text/plain
+  size: 1kb
