@@ -17,7 +17,7 @@ location: Schnackenburg, Hafen
 geocode: 9F5H2HM9+X5
 keywords: Hafen, Tourismus, Natur
 versions:
-# Array verschiedener autogenerierter Versionen
+# Array verschiedener originaler, manuell oder autogenerierter Versionen
 - role: original
   storage: cold-storage
   path: /xy-1234-original.jpg
